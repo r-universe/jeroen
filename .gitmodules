@@ -1,3 +1,88 @@
 [submodule ".registry"]
 	path = .registry
 	url = https://github.com/r-universe-org/cran-to-git
+	shallow = true
+[submodule "askpass"]
+	path = askpass
+	url = https://github.com/jeroen/askpass
+	shallow = true
+[submodule "bcrypt"]
+	path = bcrypt
+	url = https://github.com/jeroen/bcrypt
+	shallow = true
+[submodule "brotli"]
+	path = brotli
+	url = https://github.com/jeroen/brotli
+	shallow = true
+[submodule "commonmark"]
+	path = commonmark
+	url = https://github.com/jeroen/commonmark
+	shallow = true
+[submodule "curl"]
+	path = curl
+	url = https://github.com/jeroen/curl
+	shallow = true
+[submodule "gpg"]
+	path = gpg
+	url = https://github.com/jeroen/gpg
+	shallow = true
+[submodule "jose"]
+	path = jose
+	url = https://github.com/jeroen/jose
+	shallow = true
+[submodule "js"]
+	path = js
+	url = https://github.com/jeroen/js
+	shallow = true
+[submodule "jsonlite"]
+	path = jsonlite
+	url = https://github.com/jeroen/jsonlite
+	shallow = true
+[submodule "maketools"]
+	path = maketools
+	url = https://github.com/jeroen/maketools
+	shallow = true
+[submodule "mongolite"]
+	path = mongolite
+	url = https://github.com/jeroen/mongolite
+	shallow = true
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/jeroen/openssl
+	shallow = true
+[submodule "protolite"]
+	path = protolite
+	url = https://github.com/jeroen/protolite
+	shallow = true
+[submodule "RAppArmor"]
+	path = RAppArmor
+	url = https://github.com/jeroen/rapparmor
+	shallow = true
+[submodule "rsvg"]
+	path = rsvg
+	url = https://github.com/jeroen/rsvg
+	shallow = true
+[submodule "sodium"]
+	path = sodium
+	url = https://github.com/jeroen/sodium
+	shallow = true
+[submodule "sys"]
+	path = sys
+	url = https://github.com/jeroen/sys
+	shallow = true
+[submodule "unix"]
+	path = unix
+	url = https://github.com/jeroen/unix
+	shallow = true
+[submodule "V8"]
+	path = V8
+	url = https://github.com/jeroen/v8
+	shallow = true
+[submodule "webp"]
+	path = webp
+	url = https://github.com/jeroen/webp
+	shallow = true
+[submodule "webutils"]
+	path = webutils
+	url = https://github.com/jeroen/webutils
+	shallow = true
