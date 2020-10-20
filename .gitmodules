@@ -94,7 +94,3 @@
 	path = jsonlite
 	url = https://github.com/jeroen/jsonlite
 	shallow = true
-[submodule "testthat"]
-	path = testthat
-	url = https://github.com/r-lib/testthat
-	shallow = true
