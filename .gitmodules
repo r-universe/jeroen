@@ -86,11 +86,3 @@
 	path = webutils
 	url = https://github.com/jeroen/webutils
 	shallow = true
-[submodule "curl"]
-	path = curl
-	url = https://github.com/jeroen/curl
-	shallow = true
-[submodule "jsonlite"]
-	path = jsonlite
-	url = https://github.com/jeroen/jsonlite
-	shallow = true
