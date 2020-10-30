@@ -1,5 +1,15 @@
 [
   {
+    "package": "curl",
+    "url": "https://github.com/jeroen/curl",
+    "from": "V8"
+  },
+  {
+    "package": "jsonlite",
+    "url": "https://github.com/jeroen/jsonlite",
+    "from": "V8"
+  },
+  {
     "package": "testthat",
     "url": "https://github.com/r-lib/testthat",
     "from": "jsonlite"
