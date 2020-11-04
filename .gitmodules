@@ -86,23 +86,3 @@
 	path = webutils
 	url = https://github.com/jeroen/webutils
 	shallow = true
-[submodule "gh"]
-	path = gh
-	url = https://github.com/r-lib/gh
-	shallow = true
-[submodule "gitcreds"]
-	path = gitcreds
-	url = https://github.com/r-lib/gitcreds
-	shallow = true
-[submodule "testthat"]
-	path = testthat
-	url = https://github.com/r-lib/testthat
-	shallow = true
-[submodule "usethis"]
-	path = usethis
-	url = https://github.com/r-lib/usethis
-	shallow = true
-[submodule "webutils"]
-	path = webutils
-	url = https://github.com/jeroen/webutils
-	shallow = true
