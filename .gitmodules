@@ -86,7 +86,3 @@
 	path = webutils
 	url = https://github.com/jeroen/webutils
 	shallow = true
-[submodule "gert"]
-	path = gert
-	url = https://github.com/r-lib/gert
-	shallow = true
