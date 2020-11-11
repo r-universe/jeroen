@@ -2,87 +2,109 @@
 	path = .registry
 	url = https://github.com/r-universe-org/cran-to-git
 	shallow = true
+	branch = HEAD
 [submodule "askpass"]
 	path = askpass
 	url = https://github.com/jeroen/askpass
 	shallow = true
+	branch = HEAD
 [submodule "bcrypt"]
 	path = bcrypt
 	url = https://github.com/jeroen/bcrypt
 	shallow = true
+	branch = HEAD
 [submodule "brotli"]
 	path = brotli
 	url = https://github.com/jeroen/brotli
 	shallow = true
+	branch = HEAD
 [submodule "commonmark"]
 	path = commonmark
 	url = https://github.com/jeroen/commonmark
 	shallow = true
+	branch = HEAD
 [submodule "curl"]
 	path = curl
 	url = https://github.com/jeroen/curl
 	shallow = true
+	branch = HEAD
 [submodule "gpg"]
 	path = gpg
 	url = https://github.com/jeroen/gpg
 	shallow = true
+	branch = HEAD
 [submodule "jose"]
 	path = jose
 	url = https://github.com/jeroen/jose
 	shallow = true
+	branch = HEAD
 [submodule "js"]
 	path = js
 	url = https://github.com/jeroen/js
 	shallow = true
+	branch = HEAD
 [submodule "jsonlite"]
 	path = jsonlite
 	url = https://github.com/jeroen/jsonlite
 	shallow = true
+	branch = HEAD
 [submodule "maketools"]
 	path = maketools
 	url = https://github.com/jeroen/maketools
 	shallow = true
+	branch = HEAD
 [submodule "mongolite"]
 	path = mongolite
 	url = https://github.com/jeroen/mongolite
 	shallow = true
+	branch = HEAD
 [submodule "openssl"]
 	path = openssl
 	url = https://github.com/jeroen/openssl
 	shallow = true
+	branch = HEAD
 [submodule "protolite"]
 	path = protolite
 	url = https://github.com/jeroen/protolite
 	shallow = true
+	branch = HEAD
 [submodule "RAppArmor"]
 	path = RAppArmor
 	url = https://github.com/jeroen/rapparmor
 	shallow = true
+	branch = HEAD
 [submodule "rsvg"]
 	path = rsvg
 	url = https://github.com/jeroen/rsvg
 	shallow = true
+	branch = HEAD
 [submodule "sodium"]
 	path = sodium
 	url = https://github.com/jeroen/sodium
 	shallow = true
+	branch = HEAD
 [submodule "sys"]
 	path = sys
 	url = https://github.com/jeroen/sys
 	shallow = true
+	branch = HEAD
 [submodule "unix"]
 	path = unix
 	url = https://github.com/jeroen/unix
 	shallow = true
+	branch = HEAD
 [submodule "V8"]
 	path = V8
 	url = https://github.com/jeroen/v8
 	shallow = true
+	branch = HEAD
 [submodule "webp"]
 	path = webp
 	url = https://github.com/jeroen/webp
 	shallow = true
+	branch = HEAD
 [submodule "webutils"]
 	path = webutils
 	url = https://github.com/jeroen/webutils
 	shallow = true
+	branch = HEAD
