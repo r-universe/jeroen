@@ -43,6 +43,10 @@
 	path = maketools
 	url = https://github.com/jeroen/maketools
 	shallow = true
+[submodule "minimist"]
+	path = minimist
+	url = https://github.com/jeroen/minimist
+	shallow = true
 [submodule "mongolite"]
 	path = mongolite
 	url = https://github.com/jeroen/mongolite
@@ -58,6 +62,10 @@
 [submodule "RAppArmor"]
 	path = RAppArmor
 	url = https://github.com/jeroen/rapparmor
+	shallow = true
+[submodule "rjade"]
+	path = rjade
+	url = https://github.com/jeroen/rjade
 	shallow = true
 [submodule "rsvg"]
 	path = rsvg
