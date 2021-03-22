@@ -15,10 +15,6 @@
 	path = brotli
 	url = https://github.com/jeroen/brotli
 	shallow = true
-[submodule "commonmark"]
-	path = commonmark
-	url = https://github.com/jeroen/commonmark
-	shallow = true
 [submodule "curl"]
 	path = curl
 	url = https://github.com/jeroen/curl
