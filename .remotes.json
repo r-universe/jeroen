@@ -1,0 +1,20 @@
+[
+  {
+    "package": "knitr",
+    "url": "https://github.com/yihui/knitr",
+    "via": ["curl"],
+    "from": "curl"
+  },
+  {
+    "package": "rmarkdown",
+    "url": "https://github.com/rstudio/rmarkdown",
+    "via": ["curl"],
+    "from": "curl"
+  },
+  {
+    "package": "tinytex",
+    "url": "https://github.com/yihui/tinytex",
+    "via": ["curl", "rmarkdown"],
+    "from": "curl"
+  }
+]
