@@ -1,0 +1,86 @@
+[
+  {
+    "package": "bcrypt",
+    "oncran": true
+  },
+  {
+    "package": "brotli",
+    "oncran": true
+  },
+  {
+    "package": "curl",
+    "oncran": true
+  },
+  {
+    "package": "gpg",
+    "oncran": true
+  },
+  {
+    "package": "jose",
+    "oncran": true
+  },
+  {
+    "package": "js",
+    "oncran": true
+  },
+  {
+    "package": "jsonlite",
+    "oncran": true
+  },
+  {
+    "package": "maketools",
+    "oncran": true
+  },
+  {
+    "package": "minimist",
+    "oncran": true
+  },
+  {
+    "package": "mongolite",
+    "oncran": true
+  },
+  {
+    "package": "openssl",
+    "oncran": true
+  },
+  {
+    "package": "protolite",
+    "oncran": true
+  },
+  {
+    "package": "RAppArmor",
+    "oncran": true
+  },
+  {
+    "package": "rjade",
+    "oncran": true
+  },
+  {
+    "package": "rsvg",
+    "oncran": true
+  },
+  {
+    "package": "sodium",
+    "oncran": true
+  },
+  {
+    "package": "sys",
+    "oncran": true
+  },
+  {
+    "package": "unix",
+    "oncran": true
+  },
+  {
+    "package": "V8",
+    "oncran": true
+  },
+  {
+    "package": "webp",
+    "oncran": true
+  },
+  {
+    "package": "webutils",
+    "oncran": true
+  }
+]
