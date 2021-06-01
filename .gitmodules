@@ -108,3 +108,8 @@
 	url = https://github.com/jeroen/webutils
 	shallow = true
 	registered = true
+[submodule "tiff"]
+	path = tiff
+	url = https://github.com/s-u/tiff
+	shallow = true
+	registered = false
