@@ -23,11 +23,6 @@
 	url = https://github.com/jeroen/gpg
 	shallow = true
 	registered = true
-[submodule "jose"]
-	path = jose
-	url = https://github.com/jeroen/jose
-	shallow = true
-	registered = true
 [submodule "js"]
 	path = js
 	url = https://github.com/jeroen/js

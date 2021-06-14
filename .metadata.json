@@ -16,10 +16,6 @@
     "oncran": true
   },
   {
-    "package": "jose",
-    "oncran": true
-  },
-  {
     "package": "js",
     "oncran": true
   },
