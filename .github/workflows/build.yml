@@ -65,6 +65,7 @@ jobs:
     needs: prepare
     name: Build package documentation
     runs-on: ubuntu-20.04
+    timeout-minutes: 60
     if: github.event.repository.name == 'ropensci'
     steps:
       - name: Build package docs
@@ -82,7 +83,6 @@ jobs:
     name: Deploy to docs server
     runs-on: ubuntu-20.04
     needs: [docs]
-    if: github.event.repository.name == 'ropensci'
     steps:
       - name: Get artifacts for deployment
         uses: actions/download-artifact@v2
