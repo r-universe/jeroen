@@ -1,8 +1,13 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/jeroen/universe
+	url = https://github.com/r-universe-org/cran-to-git
 	shallow = true
 	branch = HEAD
+[submodule "bcrypt"]
+	path = bcrypt
+	url = https://github.com/jeroen/bcrypt
+	shallow = true
+	registered = true
 [submodule "brotli"]
 	path = brotli
 	url = https://github.com/jeroen/brotli

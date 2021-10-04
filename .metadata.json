@@ -1,5 +1,9 @@
 [
   {
+    "package": "bcrypt",
+    "oncran": true
+  },
+  {
     "package": "brotli",
     "oncran": true
   },
