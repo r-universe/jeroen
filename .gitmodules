@@ -68,11 +68,6 @@
 	url = https://github.com/jeroen/rjade
 	shallow = true
 	registered = true
-[submodule "rsvg"]
-	path = rsvg
-	url = https://github.com/jeroen/rsvg
-	shallow = true
-	registered = true
 [submodule "sodium"]
 	path = sodium
 	url = https://github.com/jeroen/sodium

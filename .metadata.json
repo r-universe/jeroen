@@ -52,10 +52,6 @@
     "oncran": true
   },
   {
-    "package": "rsvg",
-    "oncran": true
-  },
-  {
     "package": "sodium",
     "oncran": true
   },
