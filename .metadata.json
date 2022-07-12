@@ -28,10 +28,6 @@
     "oncran": true
   },
   {
-    "package": "minimist",
-    "oncran": true
-  },
-  {
     "package": "mongolite",
     "oncran": true
   },
