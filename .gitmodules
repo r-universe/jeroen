@@ -38,11 +38,6 @@
 	url = https://github.com/jeroen/maketools
 	shallow = true
 	registered = true
-[submodule "minimist"]
-	path = minimist
-	url = https://github.com/jeroen/minimist
-	shallow = true
-	registered = true
 [submodule "mongolite"]
 	path = mongolite
 	url = https://github.com/jeroen/mongolite
