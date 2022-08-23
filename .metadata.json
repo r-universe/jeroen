@@ -44,10 +44,6 @@
     "oncran": true
   },
   {
-    "package": "rjade",
-    "oncran": true
-  },
-  {
     "package": "sys",
     "oncran": true
   },
