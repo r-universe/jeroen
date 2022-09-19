@@ -8,6 +8,11 @@
 	url = https://github.com/jeroen/bcrypt
 	shallow = true
 	registered = true
+[submodule "brotli"]
+	path = brotli
+	url = https://github.com/jeroen/brotli
+	shallow = true
+	registered = true
 [submodule "curl"]
 	path = curl
 	url = https://github.com/jeroen/curl
