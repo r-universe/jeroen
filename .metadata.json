@@ -4,10 +4,6 @@
     "oncran": true
   },
   {
-    "package": "brotli",
-    "oncran": true
-  },
-  {
     "package": "curl",
     "oncran": true
   },
