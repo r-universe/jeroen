@@ -3,6 +3,11 @@
 	url = https://github.com/r-universe-org/cran-to-git
 	shallow = true
 	branch = HEAD
+[submodule "base64"]
+	path = base64
+	url = https://github.com/jeroen/base64
+	shallow = true
+	registered = true
 [submodule "bcrypt"]
 	path = bcrypt
 	url = https://github.com/jeroen/bcrypt

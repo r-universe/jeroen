@@ -1,5 +1,9 @@
 [
   {
+    "package": "base64",
+    "oncran": true
+  },
+  {
     "package": "bcrypt",
     "oncran": true
   },
