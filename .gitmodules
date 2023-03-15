@@ -3,14 +3,39 @@
 	url = https://github.com/r-universe-org/cran-to-git
 	shallow = true
 	branch = HEAD
+[submodule "mongolite"]
+	path = mongolite
+	url = https://github.com/jeroen/mongolite
+	shallow = true
+	registered = true
 [submodule "bcrypt"]
 	path = bcrypt
 	url = https://github.com/jeroen/bcrypt
 	shallow = true
 	registered = true
-[submodule "brotli"]
-	path = brotli
-	url = https://github.com/jeroen/brotli
+[submodule "webutils"]
+	path = webutils
+	url = https://github.com/jeroen/webutils
+	shallow = true
+	registered = true
+[submodule "js"]
+	path = js
+	url = https://github.com/jeroen/js
+	shallow = true
+	registered = true
+[submodule "protolite"]
+	path = protolite
+	url = https://github.com/jeroen/protolite
+	shallow = true
+	registered = true
+[submodule "unix"]
+	path = unix
+	url = https://github.com/jeroen/unix
+	shallow = true
+	registered = true
+[submodule "jsonlite"]
+	path = jsonlite
+	url = https://github.com/jeroen/jsonlite
 	shallow = true
 	registered = true
 [submodule "curl"]
@@ -23,14 +48,9 @@
 	url = https://github.com/jeroen/gpg
 	shallow = true
 	registered = true
-[submodule "js"]
-	path = js
-	url = https://github.com/jeroen/js
-	shallow = true
-	registered = true
-[submodule "jsonlite"]
-	path = jsonlite
-	url = https://github.com/jeroen/jsonlite
+[submodule "V8"]
+	path = V8
+	url = https://github.com/jeroen/v8
 	shallow = true
 	registered = true
 [submodule "maketools"]
@@ -38,24 +58,9 @@
 	url = https://github.com/jeroen/maketools
 	shallow = true
 	registered = true
-[submodule "mongolite"]
-	path = mongolite
-	url = https://github.com/jeroen/mongolite
-	shallow = true
-	registered = true
-[submodule "openssl"]
-	path = openssl
-	url = https://github.com/jeroen/openssl
-	shallow = true
-	registered = true
-[submodule "protolite"]
-	path = protolite
-	url = https://github.com/jeroen/protolite
-	shallow = true
-	registered = true
-[submodule "RAppArmor"]
-	path = RAppArmor
-	url = https://github.com/jeroen/rapparmor
+[submodule "webp"]
+	path = webp
+	url = https://github.com/jeroen/webp
 	shallow = true
 	registered = true
 [submodule "sys"]
@@ -63,23 +68,18 @@
 	url = https://github.com/jeroen/sys
 	shallow = true
 	registered = true
-[submodule "unix"]
-	path = unix
-	url = https://github.com/jeroen/unix
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/jeroen/openssl
 	shallow = true
 	registered = true
-[submodule "V8"]
-	path = V8
-	url = https://github.com/jeroen/v8
+[submodule "RAppArmor"]
+	path = RAppArmor
+	url = https://github.com/jeroen/rapparmor
 	shallow = true
 	registered = true
-[submodule "webp"]
-	path = webp
-	url = https://github.com/jeroen/webp
-	shallow = true
-	registered = true
-[submodule "webutils"]
-	path = webutils
-	url = https://github.com/jeroen/webutils
+[submodule "brotli"]
+	path = brotli
+	url = https://github.com/jeroen/brotli
 	shallow = true
 	registered = true

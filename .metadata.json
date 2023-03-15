@@ -1,10 +1,30 @@
 [
   {
+    "package": "mongolite",
+    "oncran": true
+  },
+  {
     "package": "bcrypt",
     "oncran": true
   },
   {
-    "package": "brotli",
+    "package": "webutils",
+    "oncran": true
+  },
+  {
+    "package": "js",
+    "oncran": true
+  },
+  {
+    "package": "protolite",
+    "oncran": true
+  },
+  {
+    "package": "unix",
+    "oncran": true
+  },
+  {
+    "package": "jsonlite",
     "oncran": true
   },
   {
@@ -16,11 +36,7 @@
     "oncran": true
   },
   {
-    "package": "js",
-    "oncran": true
-  },
-  {
-    "package": "jsonlite",
+    "package": "V8",
     "oncran": true
   },
   {
@@ -28,19 +44,7 @@
     "oncran": true
   },
   {
-    "package": "mongolite",
-    "oncran": true
-  },
-  {
-    "package": "openssl",
-    "oncran": true
-  },
-  {
-    "package": "protolite",
-    "oncran": true
-  },
-  {
-    "package": "RAppArmor",
+    "package": "webp",
     "oncran": true
   },
   {
@@ -48,19 +52,15 @@
     "oncran": true
   },
   {
-    "package": "unix",
+    "package": "openssl",
     "oncran": true
   },
   {
-    "package": "V8",
+    "package": "RAppArmor",
     "oncran": true
   },
   {
-    "package": "webp",
-    "oncran": true
-  },
-  {
-    "package": "webutils",
+    "package": "brotli",
     "oncran": true
   }
 ]
