@@ -1,70 +1,53 @@
 [
   {
-    "package": "base64",
-    "oncran": true
+    "package": "base64"
   },
   {
-    "package": "bcrypt",
-    "oncran": true
+    "package": "bcrypt"
   },
   {
-    "package": "brotli",
-    "oncran": true
+    "package": "brotli"
   },
   {
-    "package": "curl",
-    "oncran": true
+    "package": "curl"
   },
   {
-    "package": "gpg",
-    "oncran": true
+    "package": "gpg"
   },
   {
-    "package": "js",
-    "oncran": true
+    "package": "js"
   },
   {
-    "package": "jsonlite",
-    "oncran": true
+    "package": "jsonlite"
   },
   {
-    "package": "maketools",
-    "oncran": true
+    "package": "maketools"
   },
   {
-    "package": "mongolite",
-    "oncran": true
+    "package": "mongolite"
   },
   {
-    "package": "openssl",
-    "oncran": true
+    "package": "openssl"
   },
   {
-    "package": "protolite",
-    "oncran": true
+    "package": "protolite"
   },
   {
-    "package": "RAppArmor",
-    "oncran": true
+    "package": "RAppArmor"
   },
   {
-    "package": "sys",
-    "oncran": true
+    "package": "sys"
   },
   {
-    "package": "unix",
-    "oncran": true
+    "package": "unix"
   },
   {
-    "package": "V8",
-    "oncran": true
+    "package": "V8"
   },
   {
-    "package": "webp",
-    "oncran": true
+    "package": "webp"
   },
   {
-    "package": "webutils",
-    "oncran": true
+    "package": "webutils"
   }
 ]
