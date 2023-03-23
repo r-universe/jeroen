@@ -63,6 +63,11 @@
 	url = https://github.com/jeroen/rapparmor
 	shallow = true
 	registered = true
+[submodule "rjade"]
+	path = rjade
+	url = https://github.com/cran/rjade
+	shallow = true
+	registered = true
 [submodule "sys"]
 	path = sys
 	url = https://github.com/jeroen/sys
