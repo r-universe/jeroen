@@ -2,6 +2,9 @@
 	path = .registry
 	url = https://github.com/r-universe-org/cran-to-git
 	branch = HEAD
+[submodule "badgen"]
+	path = badgen
+	url = https://github.com/jeroen/badgen
 [submodule "base64"]
 	path = base64
 	url = https://github.com/jeroen/base64
