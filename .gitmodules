@@ -2,6 +2,12 @@
 	path = .registry
 	url = https://github.com/r-universe-org/cran-to-git
 	branch = HEAD
+[submodule "RAppArmor"]
+	path = RAppArmor
+	url = https://github.com/jeroen/rapparmor
+[submodule "V8"]
+	path = V8
+	url = https://github.com/jeroen/v8
 [submodule "badgen"]
 	path = badgen
 	url = https://github.com/jeroen/badgen
@@ -38,9 +44,6 @@
 [submodule "protolite"]
 	path = protolite
 	url = https://github.com/jeroen/protolite
-[submodule "RAppArmor"]
-	path = RAppArmor
-	url = https://github.com/jeroen/rapparmor
 [submodule "rjade"]
 	path = rjade
 	url = https://github.com/cran/rjade
@@ -50,9 +53,6 @@
 [submodule "unix"]
 	path = unix
 	url = https://github.com/jeroen/unix
-[submodule "V8"]
-	path = V8
-	url = https://github.com/jeroen/v8
 [submodule "webp"]
 	path = webp
 	url = https://github.com/jeroen/webp
