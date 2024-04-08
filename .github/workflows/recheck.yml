@@ -7,16 +7,17 @@ on:
       which:
         type: choice
         description: Which reverse dependencies to check
+        default: 'strong'
         options:
         - strong
         - most
 
-name: Reverse dependency check
+name: Reverse dependency checks
 run-name: ${{ format('Reverse dependency check for {0} ({1} deps)', inputs.package, inputs.which) }}
 
 jobs:
   check:
-    name: Reverse dependency check
+    name: Reverse dependency checks
     uses: r-universe/workflows/.github/workflows/recheck.yml@test
     with:
       package: ${{ inputs.package }}
