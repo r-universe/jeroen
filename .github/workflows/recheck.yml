@@ -12,7 +12,7 @@ on:
         - most
 
 name: Reverse dependency check
-run-name: ${{ format('Running {0} on package {1}', inputs.check, inputs.package) }}
+run-name: ${{ format('Reverse dependency check for {0} ({1} deps)', inputs.package, inputs.which) }}
 
 jobs:
   check:
