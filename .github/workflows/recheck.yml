@@ -1,0 +1,24 @@
+on:
+  workflow_dispatch:
+    inputs:
+      package:
+        description: Which package to test
+        required: true
+      which:
+        type: choice
+        description: Which reverse dependencies to check
+        options:
+        - strong
+        - most
+
+name: Reverse dependency check
+run-name: ${{ format('Running {0} on package {1}', inputs.check, inputs.package) }}
+
+jobs:
+  check:
+    name: Reverse dependency check
+    uses: r-universe/workflows/.github/workflows/recheck.yml@test
+    with:
+      package: ${{ inputs.package }}
+      which: ${{ inputs.which }}
+    secrets: inherit
