@@ -46,7 +46,7 @@
 	url = https://github.com/jeroen/protolite
 [submodule "rjade"]
 	path = rjade
-	url = https://github.com/cran/rjade
+	url = https://github.com/jeroen/rjade
 [submodule "sys"]
 	path = sys
 	url = https://github.com/jeroen/sys
