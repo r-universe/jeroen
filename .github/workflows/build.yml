@@ -20,4 +20,10 @@ jobs:
     uses: r-universe-org/workflows/.github/workflows/build.yml@v1
     with:
       package: ${{inputs.package}}
-    secrets: inherit
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DUMMY_SESSION: ${{ secrets.DUMMY_SESSION }}
+      CRANLIKEPWD: ${{ secrets.CRANLIKEPWD }}
+      GH_APP_KEY: ${{ secrets.GH_APP_KEY }}
+      SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+      GHPAT: ${{ secrets.GHPAT }}
