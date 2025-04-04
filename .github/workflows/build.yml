@@ -25,4 +25,4 @@ jobs:
       CRANLIKEPWD: ${{ secrets.CRANLIKEPWD }}
       GH_APP_KEY: ${{ secrets.GH_APP_KEY }}
       SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-      DOCS_TOKEN: ${{ secrets.GHPAT }}
+      BOT_TOKEN: ${{ secrets.GHPAT }}

@@ -15,4 +15,6 @@ jobs:
   update:
     name: Update submodules
     uses: r-universe/workflows/.github/workflows/sync.yml@v1
-    secrets: inherit
+    secrets:
+      GH_APP_KEY: ${{ secrets.GH_APP_KEY }}
+      BOT_TOKEN: ${{ secrets.GHPAT }}

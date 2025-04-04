@@ -12,4 +12,7 @@ jobs:
   update:
     name: Delete removed packages
     uses: r-universe/workflows/.github/workflows/cleanup.yml@v1
-    secrets: inherit
+    secrets:
+      GH_APP_KEY: ${{ secrets.GH_APP_KEY }}
+      BOT_TOKEN: ${{ secrets.GHPAT }}
+
