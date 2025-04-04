@@ -13,6 +13,6 @@ jobs:
     name: Delete removed packages
     uses: r-universe/workflows/.github/workflows/cleanup.yml@v1
     secrets:
-      GH_APP_KEY: ${{ secrets.GH_APP_KEY }}
+      CRANLIKEPWD: ${{ secrets.CRANLIKEPWD }}
       BOT_TOKEN: ${{ secrets.GHPAT }}
 
