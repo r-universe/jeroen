@@ -21,7 +21,6 @@ jobs:
     with:
       package: ${{inputs.package}}
     secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       DUMMY_SESSION: ${{ secrets.DUMMY_SESSION }}
       CRANLIKEPWD: ${{ secrets.CRANLIKEPWD }}
       GH_APP_KEY: ${{ secrets.GH_APP_KEY }}
