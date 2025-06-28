@@ -33,7 +33,10 @@ jobs:
 
   build:
     needs: prepare
-    name: Build and deploy ${{ needs.prepare.outputs.package }}
+    name: Build and deploy
+    concurrency:
+      group: ${{ needs.prepare.outputs.package }}
+      cancel-in-progress: true
     uses: r-universe-org/workflows/.github/workflows/build.yml@v2
     with:
       package: ${{inputs.package}}
