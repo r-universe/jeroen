@@ -23,13 +23,15 @@ jobs:
     steps:
       id: lookup
       shell: bash
-      run: |
-        if [ "${{inputs.package}}" ]; then
-        package="${{inputs.package}}"
-        else
-        package=$(echo "${{ github.event.head_commit.message}}" | cut -d " " -f1)
-        fi
-        echo "package=$package" >> $GITHUB_OUTPUT
+      steps:
+        - name: Determine package name
+          run: |
+            if [ "${{inputs.package}}" ]; then
+            package="${{inputs.package}}"
+            else
+            package=$(echo "${{ github.event.head_commit.message}}" | cut -d " " -f1)
+            fi
+            echo "package=$package" >> $GITHUB_OUTPUT
 
   build:
     needs: prepare
