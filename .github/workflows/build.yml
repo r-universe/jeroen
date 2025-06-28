@@ -15,8 +15,25 @@ name: Build package
 run-name: ${{ github.event.head_commit.message || format('{0} (rebuild)', inputs.package) }}
 
 jobs:
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-latest
+    outputs:
+      package: ${{ steps.lookup.outputs.package }}
+    steps:
+      id: lookup
+      shell: bash
+      run: |
+        if [ "${{inputs.package}}" ]; then
+        package="${{inputs.package}}"
+        else
+        package=$(echo "${{ github.event.head_commit.message}}" | cut -d " " -f1)
+        fi
+        echo "package=$package" >> $GITHUB_OUTPUT
+
   build:
-    name: Build and deploy ${{ github.event.head_commit.modified[0] || inputs.package }}
+    needs: prepare
+    name: Build and deploy ${{ needs.prepare.outputs.package }}
     uses: r-universe-org/workflows/.github/workflows/build.yml@v2
     with:
       package: ${{inputs.package}}
