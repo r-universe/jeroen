@@ -20,11 +20,9 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       package: ${{ steps.lookup.outputs.package }}
-    steps:
-      id: lookup
-      shell: bash
       steps:
         - name: Determine package name
+          id: lookup
           run: |
             if [ "${{inputs.package}}" ]; then
             package="${{inputs.package}}"
