@@ -23,9 +23,6 @@
 [submodule "curl"]
 	path = curl
 	url = https://github.com/jeroen/curl
-[submodule "gpg"]
-	path = gpg
-	url = https://github.com/jeroen/gpg
 [submodule "js"]
 	path = js
 	url = https://github.com/jeroen/js
